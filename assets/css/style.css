@@ -12,12 +12,12 @@ p {
 
 @keyframes colorize {
     from {
-        color:red;
-        transform: scale(1);
+        color:purple;
+        font-size: 1em;
     }
   
     to {
         color:blue; 
-        transform: scale(1.5);
+        font-size: 1.3em;
     }
   }
