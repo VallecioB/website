@@ -1,0 +1,23 @@
+p {
+    color:red; 
+    font-size:5em; 
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ a {
+    animation-name: colorize;
+    animation-duration: 500ms;
+    animation-iteration-count: infinite;
+ }
+
+@keyframes colorize {
+    from {
+        color:red;
+        transform: scale(1);
+    }
+  
+    to {
+        color:blue; 
+        transform: scale(1.5);
+    }
+  }
