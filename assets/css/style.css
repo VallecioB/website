@@ -1,23 +1,34 @@
-p {
-    color:red; 
-    font-size:5em; 
-    font-family: Arial, Helvetica, sans-serif;
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    transition: 300ms;
 }
 
- a {
-    animation-name: colorize;
-    animation-duration: 500ms;
-    animation-iteration-count: infinite;
- }
+main {
+    background-color: black;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
-@keyframes colorize {
-    from {
-        color:purple;
-        font-size: 1em;
-    }
-  
-    to {
-        color:blue; 
-        font-size: 1.3em;
-    }
-  }
+h1 {
+    font-size: 10rem;
+    color: red;
+}
+
+h1 span {
+    background-color: red;
+    color: black;
+}
+
+h1:hover {
+    color: black;
+    background-color: red;
+}
+
+h1:hover span {
+    color: red;
+    background-color: black;
+}
